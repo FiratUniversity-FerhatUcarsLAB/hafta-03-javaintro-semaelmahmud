@@ -1,8 +1,13 @@
-public class IkiIslem {
+public class Faktoriyel {
     public static void main(String[] args) {
-        double pay = (9.5 * 4.5) - (2.5 * 3);
-        double payda = 45.5 - 3.5;
-        double sonuc = pay / payda;
-        System.out.printf("Sonuç = %.4f\n", sonuc);
+        int sayi = 5;
+        int sonuc = 1;
+        System.out.print("5! = ");
+        for (int i = sayi; i >= 1; i--) {
+            sonuc *= i;
+            System.out.print(i);
+            if (i > 1) System.out.print(" × ");
+        }
+        System.out.println(" = " + sonuc);
     }
 }

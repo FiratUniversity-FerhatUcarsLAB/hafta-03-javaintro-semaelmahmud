@@ -1,12 +1,8 @@
-public class DaireHesap {
+public class IkiIslem {
     public static void main(String[] args) {
-        double r = 5.5;
-        double pi = Math.PI;
-        double alan = pi * r * r;
-        double cevre = 2 * pi * r;
-
-        System.out.println("Yarıçap : " + r);
-        System.out.println("Alan : " + alan);
-        System.out.println("Çevre : " + cevre);
+        double pay = (9.5 * 4.5) - (2.5 * 3);
+        double payda = 45.5 - 3.5;
+        double sonuc = pay / payda;
+        System.out.printf("Sonuç = %.4f\n", sonuc);
     }
 }
